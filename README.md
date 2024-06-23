@@ -10,8 +10,11 @@ Cons:
 - no more per-app ShuttleXpress config switching: this is for Reaper and Reaper only.
 
 
+# Preparation
 
-ShuttleMIDI doesn't provide it's own MIDI driver for Windows. It relies on the excellent and free [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
+ShuttleMIDI is an exe program pushing MIDI events onto a MIDI input port. Therefore, you will need a virtual MIDI cable to forward these MIDI events onto a MIDI output port so Reaper can pick them up.
+Free option is to use the excellent [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
+Pro option is to use [Bome Network](https://www.bome.com/products/bomenet) which is a comprehensive MIDI routing/virtualization/networking software.
 
 # Installation
 1. Install the loopMIDI driver from https://www.tobias-erichsen.de/software/loopmidi.html
