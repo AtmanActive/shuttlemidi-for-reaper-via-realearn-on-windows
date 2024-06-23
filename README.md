@@ -14,7 +14,9 @@ Cons:
 
 ShuttleMIDI is an exe program pushing MIDI events onto a MIDI input port. Therefore, you will need a virtual MIDI cable to forward these MIDI events onto a MIDI output port so Reaper can pick them up.
 
-Free option is to use the excellent [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
+- Free option is to use the excellent [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
+
+- Another free (open-source) option is to use [Springbeats Virtual MIDI Cable Driver](https://springbeats.com/sbvmidi/)
 
 Pro option is to use [Bome Network](https://www.bome.com/products/bomenet) which is a comprehensive MIDI routing / virtualization / networking software.
 
