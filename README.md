@@ -16,7 +16,7 @@ ShuttleMIDI is an exe program pushing MIDI events onto a MIDI input port. Theref
 
 Free option is to use the excellent [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
 
-Pro option is to use [Bome Network](https://www.bome.com/products/bomenet) which is a comprehensive MIDI routing/virtualization/networking software.
+Pro option is to use [Bome Network](https://www.bome.com/products/bomenet) which is a comprehensive MIDI routing / virtualization / networking software.
 
 # Installation
 1. Install the loopMIDI driver from https://www.tobias-erichsen.de/software/loopmidi.html
