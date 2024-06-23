@@ -4,7 +4,7 @@ ShuttleMIDI sends MIDI events for the [Contour ShuttleXpress](https://contourdes
 
 Pros: 
 - portable usage mode: no need to install Contour drivers, works from any path, lightweight.
-- MIDI reliability: works even if another window steals focus, can be routed to other machines.
+- MIDI reliability: works even if another window steals focus, works even if Reaper is minimized, can be routed to other machines.
 
 Cons:
 - no more per-app ShuttleXpress config switching: this is for Reaper and Reaper only.
