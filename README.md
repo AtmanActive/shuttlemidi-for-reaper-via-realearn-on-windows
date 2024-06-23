@@ -1,6 +1,14 @@
 # ShuttleMIDI for Reaper via ReaLearn on Windows.
 
-ShuttleMidi sends MIDI events for the [Contour ShuttleXpress](https://contourdesign.com/products/shuttle-xpress) (also known as Contour Multimedia Controller Xpress) to enable usage as a MIDI transport controller with [Reaper DAW](https://reaper.fm) via [ReaLearn](https://www.helgoboss.org/projects/realearn/) on [Windows](https://www.microsoft.com/en-gb/windows).
+ShuttleMIDI sends MIDI events for the [Contour ShuttleXpress](https://contourdesign.com/products/shuttle-xpress) (also known as Contour Multimedia Controller Xpress) to enable usage as a MIDI transport controller with [Reaper DAW](https://reaper.fm) via [ReaLearn](https://www.helgoboss.org/projects/realearn/) on [Windows](https://www.microsoft.com/en-gb/windows).
+
+Pros: 
+- portable usage mode: no need to install Contour drivers, works from any path, lightweight.
+- MIDI reliability: works even if another window steals focus, can be routed to other machines.
+Cons:
+- no more per-app ShuttleXpress config switching: this is for Reaper and Reaper only.
+
+
 
 ShuttleMIDI doesn't provide it's own MIDI driver for Windows. It relies on the excellent and free [loopMIDI driver from Tobias Erichsen](https://www.tobias-erichsen.de/software/loopmidi.html).
 
