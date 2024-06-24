@@ -10,6 +10,14 @@ Cons:
 - no more per-app ShuttleXpress config switching: this is for Reaper and Reaper only.
 
 
+# Map
+
+
+![ShuttleMIDI for Reaper via ReaLearn on Windows](https://raw.githubusercontent.com/AtmanActive/shuttlemidi-for-reaper-via-realearn-on-windows/main/ShuttleMIDI-for-Reaper-via-ReaLearn-on-Windows.png)
+
+The assignment of commands can be easily altered once it is installed.
+
+
 # Preparation
 
 ShuttleMIDI is an exe program pushing MIDI events onto a MIDI input port. Therefore, you will need a virtual MIDI cable to forward these MIDI events onto a MIDI output port so Reaper can pick them up.
