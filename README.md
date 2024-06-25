@@ -42,7 +42,7 @@ ShuttleMIDI is an exe program pushing MIDI events onto a MIDI input port. Theref
 11. Done. Start controlling your Reaper using your ShuttleXpress.
 
 
-The beauty of all this is that if you are using your Reaper in portable fashion, then, you don't need to go through these installation steps ever again (except for the Virtual MIDI Cable). 
+The beauty of all this is that if you are using your Reaper in a portable fashion, then, you don't need to go through these installation steps ever again (except for the Virtual MIDI Cable). Also, you never need to install Contour drivers. 
 
 
 
