@@ -52,3 +52,9 @@ The beauty of all this is that if you are using your Reaper in a portable fashio
 go build -ldflags "-linkmode external -extldflags -static -s -w -H=windowsgui" -a
 ```
 
+# Credits
+This is a fork of [this project](https://github.com/dg1psi/shuttlemidi), so all kudos to them.
+Reaper scripts were initially developed by [Amagalma](https://github.com/amagalma/ReaScripts), then fixed and adjusted by me.
+ReaLearn is a fantastic software by Helgoboss.
+Reaper is the best DAW under the sun by Cockos.
+
