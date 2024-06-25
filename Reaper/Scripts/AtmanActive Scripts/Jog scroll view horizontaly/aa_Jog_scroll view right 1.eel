@@ -1,0 +1,30 @@
+// @description aa_Jog_scroll view right 1
+// @author amagalma and AtmanActive
+// @version 1.1
+// @about
+//   # Scrolls smoothly the view to the right by user defined velocity and scroll percentage
+//
+
+
+/////////////////////// USER VALUES ////////////////////////
+scroll = 1; // how much % will the view move             //
+velocity = 1; // how many msecs the scrolling will last //
+frames = 1; // how many frames will the scrolling have   //
+////////////////////////////////////////////////////////////
+
+set_action_options(1);
+
+extension_api("BR_GetArrangeView", 0, a, b);
+c = (b-a)*scroll/100;
+frameduration = velocity/frames;
+loop(frames,
+  start = time_precise();
+  extension_api("BR_SetArrangeView", 0, a+c/frames, b+c/frames);
+  a = a + c/frames;
+  b = b + c/frames;
+  UpdateTimeline();
+  fin = time_precise();
+  timeelapsed = floor((fin-start)*1000);
+  timeelapsed < frameduration ? sleep(frameduration-timeelapsed);
+);
+function NoUndo()(abs(0)); defer("NoUndo()");
