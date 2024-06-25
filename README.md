@@ -60,5 +60,5 @@ Reaper scripts were initially developed by [Amagalma](https://github.com/amagalm
 
 [ReaLearn](https://www.helgoboss.org/projects/realearn/) is a fantastic software by [Helgoboss](https://www.helgoboss.org).
 
-[Reaper](https://reaper.fm) is the best DAW under the sun by [Cockos](https://www.cockos.com).
+[Reaper](https://reaper.fm) is the best [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation) under the sun by [Cockos](https://www.cockos.com).
 
