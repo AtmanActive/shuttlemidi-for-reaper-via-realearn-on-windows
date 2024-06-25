@@ -1,0 +1,371 @@
+{
+  "kind": "Session",
+  "version": "2.15.0",
+  "value": {
+    "version": "2.15.0",
+    "id": "SHNDB8Jf",
+    "stayActiveWhenProjectInBackground": "OnlyIfBackgroundProjectIsRunning",
+    "controlDeviceId": "2",
+    "defaultGroup": {},
+    "defaultControllerGroup": {},
+    "mappings": [
+      {
+        "id": "3frzCm2LcLvLpOLUB4ssN",
+        "name": "Shuttle Encoder Right",
+        "source": {
+          "channel": 0,
+          "number": 2,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.015748031496062992,
+          "maxSourceValue": 0.015748031496062992,
+          "minTargetValue": 1.0,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore",
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS7e73e9046a31602b4c526d671195536e39af8fb8",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "qPo9_5FLgX0i7Gia2aEGJ",
+        "name": "Shuttle Encoder Left",
+        "source": {
+          "channel": 0,
+          "number": 2,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.007874015748031496,
+          "maxSourceValue": 0.007874015748031496,
+          "minTargetValue": 0.1,
+          "maxTargetValue": 0.1,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore",
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS41952a0bfd0a562826eeb79c7c39e414eb9b110c",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "fSho6K717Hq3jfAHLVeR7",
+        "name": "Shuttle Jog Left",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40138",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "E2AhGTJL7kKOfK1PaEqOx",
+        "name": "Shuttle Jog Right",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "character": 2,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40139",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "DC9UqsxvEdeD79_WUFho0",
+        "name": "Button 1",
+        "source": {
+          "channel": 0,
+          "number": 3,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1
+        },
+        "target": {
+          "type": 16,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "transportAction": "repeat",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "q2_GwXgc7d2XGdmot3TLB",
+        "name": "Button 2",
+        "source": {
+          "channel": 0,
+          "number": 4,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40172",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "8yVhZUN6bFw2f-wIlusyk",
+        "name": "Button 3",
+        "source": {
+          "channel": 0,
+          "number": 5,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "1157",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "ZXtC-lDzJI72DKdazwnd7",
+        "name": "Button 4",
+        "source": {
+          "channel": 0,
+          "number": 6,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40173",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "0h2Wva4dVDHT7Be1Wdrz2",
+        "name": "Button 5",
+        "source": {
+          "channel": 0,
+          "number": 7,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1
+        },
+        "target": {
+          "type": 16,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      }
+    ],
+    "activeMainPresetId": "shuttlexpress",
+    "instanceFx": {
+      "address": "Focused"
+    }
+  }
+}
