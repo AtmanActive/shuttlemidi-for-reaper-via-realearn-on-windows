@@ -1,0 +1,845 @@
+{
+  "kind": "MainCompartment",
+  "version": "2.15.0",
+  "value": {
+    "defaultGroup": {},
+    "mappings": [
+      {
+        "id": "3frzCm2LcLvLpOLUB4ssN",
+        "name": "Shuttle Encoder Right",
+        "source": {
+          "channel": 0,
+          "number": 2,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.015748031496062992,
+          "maxSourceValue": 0.015748031496062992,
+          "minTargetValue": 1.0,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore",
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS67acd4778b17a0f656f05791410f3f0efce1c3d2",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "qPo9_5FLgX0i7Gia2aEGJ",
+        "name": "Shuttle Encoder Left",
+        "source": {
+          "channel": 0,
+          "number": 2,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.007874015748031496,
+          "maxSourceValue": 0.007874015748031496,
+          "minTargetValue": 0.1,
+          "maxTargetValue": 0.1,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore",
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSabc0e6cb0f3064cf5c8f555e43536dca8d993394",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "fSho6K717Hq3jfAHLVeR7",
+        "name": "Shuttle Jog Left 1",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.14173228346456693,
+          "maxSourceValue": 0.14173228346456693,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS807320e3f9d1d7f6eb8b4a3c510f1cdd8003fb10",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "yYeFAb9kJSIsmY1O-vQdQ",
+        "name": "Shuttle Jog Left 2",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.28346456692913385,
+          "maxSourceValue": 0.28346456692913385,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSdaaa13d3107d209733b94fd2aa74e004fe139237",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "68lNy7K6h9uX6AmJ6b-on",
+        "name": "Shuttle Jog Left 3",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.4251968503937008,
+          "maxSourceValue": 0.4251968503937008,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS2acf99069f58c6ed87665108d6c14fae79b90103",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "hJSPUoY0xF1-3ee0Xlvff",
+        "name": "Shuttle Jog Left 4",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.5669291338582677,
+          "maxSourceValue": 0.5669291338582677,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSaaa2f559c392db88511027c728c688c795c78e7a",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "HzDSHT9LxbvGFptYabiCL",
+        "name": "Shuttle Jog Left 5",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.7086614173228346,
+          "maxSourceValue": 0.7086614173228346,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSf4d0e33960ef71f7c8de1d67f3e4bad8260234dd",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "wqJ01Yx1ckDQHKtUnp3kR",
+        "name": "Shuttle Jog Left 6",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.8503937007874016,
+          "maxSourceValue": 0.8503937007874016,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS6dedec7ef7d036bcd3f9331ea00a4e7b7e1e93ba",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "w4BEB-d8z3pUZjcsSrVJ0",
+        "name": "Shuttle Jog Left 7",
+        "source": {
+          "channel": 0,
+          "number": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.9921259842519684,
+          "maxSourceValue": 0.9921259842519684,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSa904b627ba0753cbe34a5c74f6956f49078e481c",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "E2AhGTJL7kKOfK1PaEqOx",
+        "name": "Shuttle Jog Right 1",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.9921259842519684,
+          "maxSourceValue": 0.9921259842519684,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS88dd9ee6d042b12a81ff7d88e4589a9fe693102a",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "FoLRK3-e4-LLvpYiDp8--",
+        "name": "Shuttle Jog Right 2",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.8503937007874016,
+          "maxSourceValue": 0.8503937007874016,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS99d48db6c935aa17498705f691805d1bd3c9ecee",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "Cj1pFYnG4TXTqRJqEKkHa",
+        "name": "Shuttle Jog Right 3",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.7086614173228346,
+          "maxSourceValue": 0.7086614173228346,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSa50a475591f8e36bbaf0d1d8fb352aa3f9df4a1a",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "jzUegqec1XISmvRdNeU1Y",
+        "name": "Shuttle Jog Right 4",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.5669291338582677,
+          "maxSourceValue": 0.5669291338582677,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RS060c4dc06ccbe03906707dd1d3af69a5a0db494a",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "52HxxNFwovLUhzY5KscT0",
+        "name": "Shuttle Jog Right 5",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.4251968503937008,
+          "maxSourceValue": 0.4251968503937008,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSc6202ef03f8df7678903840ef2c6ce3d87825324",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "p-w2JQIj2kubNdfBFKc43",
+        "name": "Shuttle Jog Right 6",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.28346456692913385,
+          "maxSourceValue": 0.28346456692913385,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSc609e8340b8cc69578ebc28666eb28a2dce97b31",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "eJ-Ou7mraqWZyk8dhG1TI",
+        "name": "Shuttle Jog Right 7",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "minSourceValue": 0.14173228346456693,
+          "maxSourceValue": 0.14173228346456693,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "outOfRangeBehavior": "ignore"
+        },
+        "target": {
+          "type": 0,
+          "commandName": "RSe117271da46bd38d7c11f6287f3d13bfd1debfc6",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useTimeSelection": true,
+          "useProject": true,
+          "feedbackResolution": "high",
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "DC9UqsxvEdeD79_WUFho0",
+        "name": "Button 1",
+        "source": {
+          "channel": 0,
+          "number": 3,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1
+        },
+        "target": {
+          "type": 16,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "transportAction": "repeat",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "q2_GwXgc7d2XGdmot3TLB",
+        "name": "Button 2",
+        "source": {
+          "channel": 0,
+          "number": 4,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40172",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "8yVhZUN6bFw2f-wIlusyk",
+        "name": "Button 3",
+        "source": {
+          "channel": 0,
+          "number": 5,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "1157",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "ZXtC-lDzJI72DKdazwnd7",
+        "name": "Button 4",
+        "source": {
+          "channel": 0,
+          "number": 6,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "type": 0,
+          "commandName": "40173",
+          "invocationType": 0,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "0h2Wva4dVDHT7Be1Wdrz2",
+        "name": "Button 5",
+        "source": {
+          "channel": 0,
+          "number": 7,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1
+        },
+        "target": {
+          "type": 16,
+          "fxAnchor": "id",
+          "useSelectionGanging": false,
+          "useTrackGrouping": false,
+          "seekBehavior": "Immediate",
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "mouseAction": {
+            "kind": "MoveTo",
+            "axis": "Y"
+          },
+          "takeMappingSnapshot": {
+            "kind": "LastLoaded"
+          }
+        },
+        "feedbackIsEnabled": false
+      }
+    ]
+  }
+}
