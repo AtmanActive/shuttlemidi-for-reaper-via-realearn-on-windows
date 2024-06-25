@@ -58,7 +58,7 @@ This is a fork of [this project](https://github.com/dg1psi/shuttlemidi), so all 
 
 Reaper scripts were initially developed by [Amagalma](https://github.com/amagalma/ReaScripts), then fixed and adjusted by me.
 
-ReaLearn is a fantastic software by Helgoboss.
+[ReaLearn](https://www.helgoboss.org/projects/realearn/) is a fantastic software by Helgoboss.
 
-Reaper is the best DAW under the sun by Cockos.
+[Reaper](https://reaper.fm) is the best DAW under the sun by Cockos.
 
